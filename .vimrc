@@ -17,6 +17,7 @@ call plug#begin('~/.vim/plugged')
 	Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 	Plug 'junegunn/fzf.vim'
 	Plug 'tpope/vim-fugitive'
+	Plug 'catpuccin/nvim', { 'as': 'catpuccin:"}
 call plug#end()
 
 let mapleader = "\<Space>"
