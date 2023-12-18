@@ -3,14 +3,16 @@ set number
 set relativenumber
 syntax on
 set tabstop=4
+set title
 set hlsearch
 set history=100
 set nocompatible
 filetype on
-filetype plugin on
-filetype indent on
+filetype plugin indent on
+set linebreak
+set spell
 
-call plug#begin('~/.vim/plugged')
+call plug#begin('~/vimfiles/plugged')
 	Plug 'preservim/nerdtree'
 	Plug 'itchyny/lightline.vim'
 	Plug 'mattn/emmet-vim'
