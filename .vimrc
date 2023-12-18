@@ -1,4 +1,4 @@
-set laststatus=2
+et laststatus=2
 set number
 set relativenumber
 syntax on
@@ -11,6 +11,7 @@ filetype on
 filetype plugin indent on
 set linebreak
 set spell
+set autoindent
 
 call plug#begin('~/vimfiles/plugged')
 	Plug 'preservim/nerdtree'
@@ -19,7 +20,7 @@ call plug#begin('~/vimfiles/plugged')
 	Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 	Plug 'junegunn/fzf.vim'
 	Plug 'tpope/vim-fugitive'
-	Plug 'catpuccin/nvim', { 'as': 'catpuccin:"}
+	Plug 'catppuccin/vim', { 'as': 'catppuccin' }
 call plug#end()
 
 let mapleader = "\<Space>"
