@@ -1,0 +1,7 @@
+map J nextTab
+map K previousTab
+map o enterInsertMode
+map u scrollPageDown
+map i scrollPageUp
+map a Vomnibar.activateTabSelection
+map t Vomnibar.activateInNewTab
